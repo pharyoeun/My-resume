@@ -1,6 +1,18 @@
-
-#external {
-  color: green;
+body {
+  margin: 0;
+  background-color: rgb(222, 209, 188);
+  font-family: Georgia, serif;
 }
-#inline{ color: blue}
-#internal{color:red}
+.box {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 20px 30px;
+  margin: 40px 20px;
+}
+.hello {
+  background-color: rgb(134, 168, 130);
+}
+.world {
+  background-color: rgb(190, 132, 63);
+}
