@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product preview</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f6f1eb;
+    color:#242c23;
+}
+
+.card{
+    width:650px;
+    height:330px;
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    display:flex;
+    box-shadow:0 18px 40px rgba(16, 71, 54, 0.08);
+}
+
+.image-panel{
+    width:46%;
+    background:linear-gradient(160deg, #355c4d, #7a9e7e);
+}
+
+.content{
+    width:54%;
+    padding:32px 26px;
+}
+
+.category{
+    font-size:11px;
+    letter-spacing:0.3rem;
+    color:#6b7280;
+    margin-bottom:18px;
+}
+
+.title{
+    font-size:22px;
+    line-height:1.2;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.description{
+    font-size:15px;
+    line-height:1.7;
+    color:#6b7280;
+    margin-bottom:24px;
+}
+
+.price-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:24px;
+}
+
+.new-price{
+    color:#166534;
+    font-size:20px;
+    font-weight:700;
+}
+
+.old-price{
+    color:#9ca3af;
+    text-decoration:line-through;
+    font-size:14px;
+}
+
+button{
+    width:100%;
+    height:48px;
+    border:none;
+    border-radius:10px;
+    background:#166534;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="image-panel"></div>
+
+    <div class="content">
+
+        <p class="category">PERFUME</p>
+
+        <h1 class="title">
+            Gabrielle Essence Eau De Parfum
+        </h1>
+
+        <p class="description">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of Chanel.
+        </p>
+
+        <div class="price-box">
+            <span class="new-price">$149.99</span>
+            <span class="old-price">$169.99</span>
+        </div>
+
+        <button>Add to Cart</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
